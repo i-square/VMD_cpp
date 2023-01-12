@@ -10,7 +10,6 @@ Detail input and output please check out function **VMD** in file [VMD_Utils.cpp
 
 If you are looking for document to describe Variational mode decomposition, please turn to the original paper [Variational Mode Decomposition](https://ieeexplore.ieee.org/document/6655981). You can also find the MATLAB codes here.
 
-
 ## build & run
 ```bash
 mkdir build && cd build
@@ -18,5 +17,6 @@ cmake ..
 make
 ./VMD_CPP
 ```
+
 ## note
 Updated 2022-06-23: This VMD runs too slow. I tried to use OpenMP to make Eigen in parallel computing, but it couldn't work. Need to find another way in future.
