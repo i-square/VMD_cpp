@@ -1,4 +1,5 @@
 ﻿#pragma once
+
 #include <vector>
 #include <cmath>
 #include <ctime>
@@ -6,7 +7,10 @@
 #include <unsupported/Eigen/FFT>
 
 #define pI acos(-1)
-using namespace Eigen;
+
+using Eigen::MatrixXcd;
+using Eigen::MatrixXd;
+
 typedef std::vector<double> vectord;
 typedef std::vector<std::complex<double> > vectorcd;
 typedef std::vector<MatrixXcd> Matrix3DXd;
