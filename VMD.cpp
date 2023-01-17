@@ -1,4 +1,4 @@
-#include "VMD.hpp"
+#include "VMD.h"
 
 using namespace Eigen;
 using namespace std;

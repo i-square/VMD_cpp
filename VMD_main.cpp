@@ -1,4 +1,4 @@
-﻿#include "VMD.hpp"
+﻿#include "VMD.h"
 #include <fstream>
 #include <iostream>
 using namespace Eigen;
